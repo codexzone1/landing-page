@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,400&display=swap');
+*
+{
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+body
+{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #000000;
+    margin-top: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+div
+{
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+
+.button
+{
+    display: inline-block;
+    background: #97cbfa;
+    border-radius: 5px;
+    height: 48px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.button a
+{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.button:hover
+{
+    opacity: 0.8;
+}
+
+.contact_info
+{
+    width: 100%;
+    padding-top: 70px;
+}
+.contact_info_item
+{
+    width: calc((100% - 60px) / 3);
+    height: 100px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    padding-left: 32px;
+    padding-right: 15px;
+}
+.contact_info_image
+{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+.contact_info_image img
+{
+    max-width: 100%;
+}
+.contact_info_content
+{
+    padding-left: 17px;
+}
+.contact_info_title
+{
+    font-weight: 500;
+}
+.contact_info_text
+{
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+}
+
+/*********************************
+4.1 Contact Form
+*********************************/
+
+.contact_form
+{
+    padding-top: 85px;
+}
+
+.contact_form_title
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 37px;
+}
+.contact_form_inputs
+{
+    margin-bottom: 30px;
+}
+.input_field
+{
+    width: calc((100% - 60px) / 3);
+    height: 50px;
+    padding-left: 25px;
+    border: solid 1px #e5e5e5;
+    border-radius: 5px;
+    outline: none;
+    color: #0e8ce4;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.input_field:focus,
+.text_field:focus
+{
+    border-color: #b2b2b2;
+}
+.input_field:hover,
+.text_field:hover
+{
+    border-color: #b2b2b2;
+}
+.input_field::-webkit-input-placeholder,
+.text_field::-webkit-input-placeholder
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.3);
+}
+.input_field:-moz-placeholder,
+.text_field:-moz-placeholder
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.3);
+}
+.input_field::-moz-placeholder,
+.text_field::-moz-placeholder
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.3);
+} 
+.input_field:-ms-input-placeholder,
+.text_field:-ms-input-placeholder
+{ 
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.3);
+}
+.input_field::input-placeholder,
+.text_field::input-placeholder
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.3);
+}
+.text_field
+{
+    width: 100%;
+    height: 160px;
+    padding-left: 25px;
+    padding-top: 15px;
+    border: solid 1px #e5e5e5;
+    border-radius: 5px;
+    color: #0e8ce4;
+    outline: none;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.contact_submit_button
+{
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.panel
+{
+    width: 100%;
+    height: 50px;
+    background: #fafafa;
+    margin-top: 120px;
+}
+
+
+@media only screen and (max-width: 991px)
+{
+    
+    .contact_info_item
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact_info_item:last-child
+    {
+        margin-bottom: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px)
+{
+    
+    .input_field
+    {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .input_field:last-child
+    {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 575px)
+{
+    
+    .contact_submit_button
+    {
+        font-size: 13px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+}
+             /* pricing */
+
+.container_card{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   }
+
+@media only screen and (max-width: 900px){
+    .container_card{
+        flex-direction: column;
+        padding: 1rem;
+        margin: 1rem 1rem 1rem;
+        align-items: center;
+        align-self: center;
+        justify-content: space-evenly;
+    }
+    .container_card .card{
+        padding: 0.2rem;
+        
+    }
+}
+
+
+              /* pricing end */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    z-index: 300;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+ }
+              
+              /* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+ }
+              
+              /* Style the social media icons with color, if you want */
+ .icon-bar a:hover {
+    background-color: #000;
+}
+              
+.facebook {
+     background: #3B5998;
+     color: white;
+}
+              
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+              
+.google {
+    background: #dd4b39;
+    color: white;
+}
+              
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+              
+.youtube {
+    background: #bb0000;
+    color: white;
+}   
+
+
+        /* footer */
+footer {
+    background:hsl(209, 61%, 16%);
+    padding: 5rem 1rem;
+    
+
+  }
+footer p {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+  }
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background:black;
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius:0.5rem;
+    color:#fff;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+  }  
+
+                /* footer end */
+
+
+  /* slide anim               */
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+ 
+            /* about  */
+
+            .about{
+    
+                background-size: 55%;
+                background-color: #fdfdfd;
+                overflow: hidden;
+                padding: 17px 0;
+                margin-top: 0;
+                height: 100vh;
+              
+              }
+              .inner-section{
+                width: 55%;
+                float: right;
+                background-color: #fdfdfd;
+                padding: 159px;
+                box-shadow: 9px 9px 8px rgba(0,0,0,0.3);
+              }
+              .inner-section h1{
+                margin-bottom: 30px;
+                font-size: 30px;
+                font-weight: 900;
+              }
+              .text{
+                font-size: 17px;
+                color: #545454;
+                line-height: 30px;
+                text-align: justify;
+                margin-bottom: 40px;
+              }
+              .skills button{
+                font-size: 22px;
+                text-align: center;
+                letter-spacing: 2px;
+                border: none;
+                border-radius: 20px;
+                padding: 8px;
+                width: 200px;
+                color: white;
+                cursor: pointer;
+              }
+              .skills button a{
+                  text-decoration: none;
+              }
+              .skills button:hover{
+                transition: 1s;
+                background-color: #ecf5f5;
+                color: #00999c;
+              }
+              @media screen and (min-width:1001px) and (max-width:1091px){
+                
+                .inner-section{
+                  
+                  height: 75vh;
+                }
+              }
+              @media screen and (max-width:1200px){
+                .about{
+                  padding: 20px;
+                }
+                .inner-section{
+                    padding: 140px;
+                }
+              }
+              @media screen and (max-width:1000px){
+                .about{
+                    margin-top: 0;
+                    background-size: 100% ;
+                    padding: 97px 40px;
+                }
+                .inner-section{
+                    width: 100%;
+                }
+              }
+              @media screen and (min-width:600px) and (max-width:805px){
+                .inner-section{
+                  height: 64vh;
+                }
+                .inner-section h1{
+                  
+                margin-bottom: 20px;
+                font-size: 20px;
+                font-weight: 900;
+                }
+              }
+              @media screen and (max-width:600px){
+                
+                .about{
+                    padding: 0;
+                }
+                .inner-section{
+                    padding: 60px;
+                    height: 75vh;
+                }
+                .skills button{
+                    font-size: 19px;
+                    padding: 5px;
+                    width: 160px;
+                }
+              }            
