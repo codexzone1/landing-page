@@ -519,4 +519,10 @@ footer p {
                     padding: 5px;
                     width: 160px;
                 }
-              }            
+              } 
+
+             @media screen and (max-width:385px){
+                .about{
+                    min-height: 125vh;
+                }
+              }
