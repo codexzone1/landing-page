@@ -253,7 +253,13 @@ h1, h2, h3, h4, h5, h6
 
 @media only screen and (max-width: 575px)
 {
-    
+    /* navbar header */
+    .navbar-brand
+    {
+        font-weight: 500;
+        font-size: small;
+    }  
+     
     .contact_submit_button
     {
         font-size: 13px;
@@ -420,7 +426,7 @@ footer p {
                 overflow: hidden;
                 padding: 17px 0;
                 margin-top: 0;
-                height: 100vh;
+                height: 90vh;
               
               }
               .inner-section{
@@ -428,7 +434,7 @@ footer p {
                 float: right;
                 background-color: #fdfdfd;
                 padding: 159px;
-                box-shadow: 9px 9px 8px rgba(0,0,0,0.3);
+                /* box-shadow: 9px 9px 8px rgba(0,0,0,0.3); */
               }
               .inner-section h1{
                 margin-bottom: 30px;
@@ -487,6 +493,7 @@ footer p {
                 }
               }
               @media screen and (min-width:600px) and (max-width:805px){
+                
                 .inner-section{
                   height: 64vh;
                 }
@@ -503,6 +510,7 @@ footer p {
                     padding: 0;
                 }
                 .inner-section{
+                    
                     padding: 60px;
                     height: 75vh;
                 }
